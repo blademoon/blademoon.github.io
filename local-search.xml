@@ -4,13 +4,29 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2025/02/01/hello-world/"/>
-    <url>/2025/02/01/hello-world/</url>
+    <title>【记_V_vol.1】 二次博客搭建</title>
+    <link href="/2025/02/01/%E3%80%90%E8%AE%B0_V_vol.1%E3%80%91%20%E4%BA%8C%E6%AC%A1%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <url>/2025/02/01/%E3%80%90%E8%AE%B0_V_vol.1%E3%80%91%20%E4%BA%8C%E6%AC%A1%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>近来QQ空间写得比较多，然而QQ空间的内容比较随意，如果我想写一些较为严肃的东西，就缺少了一个合适的平台。因此，我就把原先的博客删掉，重新建了一个新的。虽然可能没什么人看，但是这也是我发表文章的一个地方，可以满足我的需求。</p><p>然而，这个重建的过程并不顺利。</p><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>网上有很多关于使用 hexo+Github Page 创建博客的文章，然而这些文章往往是一上来就说怎么做，几乎没有文章解释原理是什么的（可能是太简单了不配解释吧）。我在这里先凭借我多次失败的经验，把我大概推测出的原理写一下。</p><p>首先是在本地通过hexo搭建一个博客，然后再将这个文件夹内的文件都上传到 Github 的一个仓库中，接着访问这个仓库对应的 Github Page ，看到的就是博客了。</p><p>这次在“上传”这一操作中遇到了诸多不顺。</p><h3 id="困难"><a href="#困难" class="headerlink" title="困难"></a>困难</h3><p>我一开始是按照网络上的教程在本地生成了SSH key，然后将该key添加到github账户中，接着直接hexo d推送，多次尝试，都失败了。</p><p>最后抱着摆烂的心态，在电脑上安装了Github Desktop，想着通过手动的方式把所有的文件都上传到仓库里面，结果还是不行。</p><p>但是，这个时候又试了一次hexo d，突然弹出来一个窗口说要和Github账户绑定，然后经过一系列的验证与确认步骤，竟然成功的推送了。</p><p>可能是到了2025年有了新的做法吧，总之最后还是成功了。</p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>在多次访问 Github 的过程中，发现直连的网络质量还是可以的。猜测可能是近期deepseek这样的开源模型利好Github这样的平台。</p><p>谢谢大家阅读。</p>]]></content>
     
     
+    <categories>
+      
+      <category>记_V</category>
+      
+      <category>博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记_V</tag>
+      
+      <tag>博客</tag>
+      
+    </tags>
     
   </entry>
   
